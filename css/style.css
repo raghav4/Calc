@@ -5,8 +5,6 @@ body{
 #container{
     width: 1000px;
     height: 550px;
-    /* background-image: url(https://res.cloudinary.com/rexon/image/upload/v1547876695/calc-background_ijnvwu.svg); */
-    /* background-color: #2ecc71; */
     margin: 100px auto;
 }
 #calculator{
@@ -28,7 +26,33 @@ body{
 #history{
     text-align: right;
     height: 20px;
+    margin: 0px 20px;
+    padding-top: 20px;
+    font-size: 15px;
 }
 #output{
     text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.operator, .empty ,.number{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    font-weight: bold;
+    border-width: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.operator{
+    background-color: #badc58;
+    font-family: 'Work Sans', sans-serif;
+}
+.empty{
+    background-color: white;
+}
+.number{
+    background-color: #dff9fb;
 }
