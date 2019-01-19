@@ -1,0 +1,34 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #27ae60;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    /* background-image: url(https://res.cloudinary.com/rexon/image/upload/v1547876695/calc-background_ijnvwu.svg); */
+    /* background-color: #2ecc71; */
+    margin: 100px auto;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+    height: 100px;
+}
+#input{
+    height: 400px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+}
+#output{
+    text-align: right;
+}
