@@ -1,3 +1,3 @@
 # Basic Calculator 
 ## Built with HTML,CSS,JS
-![Calculator](ss.jpg)
+![Calculator](ss.png)
